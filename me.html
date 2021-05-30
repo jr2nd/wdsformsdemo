@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h2>oh whaaa!</h2>
+    <a href="/">main page</a>
+
+    <div id="results"></div>
+
+    <script>
+      const resultsList = document.getElementById('results');
+      new URLSearchParams(window.location.search).forEach((value, name) => {
+        resultsList.append(`${name}=${value}: `);
+      });
+    </script>
+  </body>
+</html>

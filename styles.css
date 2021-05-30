@@ -1,0 +1,17 @@
+body {
+  background: orange;
+}
+
+form {
+flex: auto;
+}
+input {
+  display: block;
+}
+label {
+  display: block;
+}
+
+button {
+  margin: 15px;
+}
